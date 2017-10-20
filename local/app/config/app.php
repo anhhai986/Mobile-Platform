@@ -1,5 +1,10 @@
 <?php
 
+/*
+| Hotfix for PHP 7.1 compatibility
+*/
+error_reporting(E_ALL ^ E_DEPRECATED);
+
 return array(
 
 	/*
